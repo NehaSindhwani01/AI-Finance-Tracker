@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💰 AI Finance Tracker
 
-## Getting Started
+**AI Finance Tracker** is a smart, secure, and scalable finance tracking web application built using modern tools like **Next.js**, **Clerk**, **Inngest**, **Arcjet**, **ShadCN UI**, and **Resend**. It helps users manage their personal finances, track transactions, and receive automated monthly budget insights through emails.
 
-First, run the development server:
+---
 
-```bash
+
+## 🔗 Live Demo
+
+👉 [Click here to use the app](https://ai-finance-tracker-rho.vercel.app/)
+
+---
+
+
+## 🚀 Features
+
+- 🔐 **Authentication & User Management** — Powered by [Clerk](https://clerk.dev)
+  
+- 📩 **Transactional Emails** — Integrated using [Resend](https://resend.com/)
+  
+- ⏳ **Scheduled Jobs & Background Tasks** — Managed via [Inngest](https://www.inngest.com/)
+  
+- 🛡️ **App Security & Performance** — Enhanced with [Arcjet](https://arcjet.com/)
+  
+- 💅 **Modern UI Components** — Styled with [ShadCN UI](https://ui.shadcn.com/)
+  
+- 🧠 **AI-Powered Finance Suggestions**
+  
+- 📊 **Income & Expense Tracker**
+  
+- 📆 **Recurring Transactions**
+  
+- 📝 **Add, Edit, and Delete Transactions**
+  
+- 🔍 **Filter & Sort by Date, Category, or Amount**
+  
+- ⚡ **Fast & Responsive UI** with Next.js 14
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology  | Purpose                                 |
+|-------------|------------------------------------------|
+| **Next.js** | React-based full stack framework         |
+| **Clerk**   | Authentication and user sessions         |
+| **Inngest** | Serverless functions & cron jobs         |
+| **Arcjet**  | Security and performance shield          |
+| **Resend**  | Email service for notifications          |
+| **ShadCN UI**| Modern and customizable UI components  |
+| **Tailwind CSS** | Utility-first styling               |
+
+---
+
+## 📸 Screenshots
+
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+git clone https://github.com/NehaSindhwani01/AI-Finance-Tracker.git
+
+cd AI-Finance-Tracker
+
+### 2. Install Dependencies
+
+npm install
+
+### 3. Environment Variables
+
+Create a .env.local file and add your keys:
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+
+CLERK_SECRET_KEY=
+
+RESEND_API_KEY=
+
+INNGEST_EVENT_KEY=
+
+ARCJET_PROJECT_KEY=
+
+### 4. Run the App
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📧 Automated Email Reports
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Monthly budget summaries
 
-## Learn More
+Personalized AI-based financial tips
 
-To learn more about Next.js, take a look at the following resources:
+Income/Expense analysis
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Calendar alerts for upcoming dues
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+These are sent using Resend + Inngest cron jobs.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Mobile Ready
+
+Built with a mobile-first approach using Tailwind and ShadCN, ensuring a smooth experience on any device.
+
+## 🧠 Smart Features
+Auto-categorization of transactions
+
+AI-driven savings recommendations
+
+Dynamic visual analytics
+
+Goal-tracking and performance summaries
+
+
+##Crafted with ❤️ by Neha Sindhwani
