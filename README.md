@@ -117,5 +117,6 @@ Dynamic visual analytics
 
 Goal-tracking and performance summaries
 
+---
 
-##Crafted with ❤️ by Neha Sindhwani
+## Crafted with ❤️ by Neha Sindhwani
