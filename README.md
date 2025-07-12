@@ -11,6 +11,29 @@
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Landing Page
+![Landing Page](./screenshots/landing_page.png)
+
+### 🔐 Authentication Page
+![Authentication Page](./screenshots/auth_page.png)
+
+### 📝 Create New Account Page
+![Create New Account](./screenshots/create_new_acc_page.png)
+
+### 📊 Dashboard
+![Dashboard - Overview](./screenshots/dashboard_page.png)
+![Dashboard - Extended](./screenshots/dashboard_page2.png)
+
+### ➕ Add New Transaction
+![Add Transaction](./screenshots/add_new_transaction_page.png)
+
+### 💼 Account Details View
+![Account Details 1](./screenshots/particular_acc_details_page.png)
+![Account Details 2](./screenshots/particular_acc_details_page2.png)
+
+---
 
 ## 🚀 Features
 
